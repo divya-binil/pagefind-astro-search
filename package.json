@@ -1,0 +1,19 @@
+{
+  "name": "flaky-filament",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "postbuild": "pagefind --site dist"
+  },
+  "dependencies": {
+    "astro": "^3.2.3"
+  },
+  "devDependencies": {
+    "pagefind": "^1.0.3"
+  }
+}
