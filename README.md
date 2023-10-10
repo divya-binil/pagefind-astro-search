@@ -1,0 +1,1 @@
+# pagefind-astro-search
